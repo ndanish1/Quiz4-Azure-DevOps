@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Quiz4_Azure_DevOps.Models;
 using System.Diagnostics;
 
-namespace Quiz4_Azure_DevOps.Controllers
+namespace quiz4_demo.Controllers
 {
     public class HomeController : Controller
     {
@@ -15,6 +15,9 @@ namespace Quiz4_Azure_DevOps.Controllers
 
         public IActionResult Index()
         {
+            // Add the database access statement here
+            ViewData["DatabaseMessage"] = "Database access has already been done on April 14, 2023 by Naveed Danish";
+
             return View();
         }
 
