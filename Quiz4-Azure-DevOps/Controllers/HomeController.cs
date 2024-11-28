@@ -16,7 +16,7 @@ namespace quiz4_demo.Controllers
         public IActionResult Index()
         {
             // Add the database access statement here
-            ViewData["DatabaseMessage"] = "Database access has already been done on April 14, 2023 by Naveed Danish";
+            ViewData["DatabaseMessage"] = "Database access has already been done on November 28, 2024 by Naveed Danish";
 
             return View();
         }
